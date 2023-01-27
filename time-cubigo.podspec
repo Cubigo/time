@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '5'
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = "Cubigo"
-  spec.version      = "0.0.2"
-  spec.source       = { :git => "https://github.com/Cubigo/time.git", :tag => "0.0.2" }
-  spec.source_files  = "Sources/Time/**/*"
+  spec.version      = "0.0.3"
+  spec.source       = { :git => "https://github.com/Cubigo/time.git", :tag => "0.0.3" }
+  spec.source_files  = "Sources/Time/**/*.swift"
 end
